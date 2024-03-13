@@ -72,4 +72,4 @@ public class ejercicio_clase1 {
         while (opcion != 4)
             ;
     }
-} 
+}

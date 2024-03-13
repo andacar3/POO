@@ -38,10 +38,10 @@ public class ejercicio_clase2 {
         ejercicio_clase2 lo = new ejercicio_clase2();
 
         Scanner tec = new Scanner(System.in);
-        System.out.println("ingrese un numero de 3 cifras");
-        int number = tec.nextInt();
         int opcion;
         do {
+        System.out.println("ingrese un numero de 3 cifras");
+        int number = tec.nextInt();
             System.out.println("ingrese una opcion a realizar");
             System.out.println("1: para verificar el numero e imprimir");
             System.out.println("3: terminar el programa");
