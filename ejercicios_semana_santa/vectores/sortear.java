@@ -15,8 +15,6 @@ public class sortear {
     }
 
     public static int[] sortPrimos(int[] vector_main) {
-        // Primero, contamos cuántos números primos hay para determinar el tamaño del
-        // nuevo vector
         int cuentaPrimos = 0;
         for (int i = 0; i < vector_main.length; i++) {
             if (itsPrime(vector_main[i])) {
@@ -26,7 +24,6 @@ public class sortear {
 
         int[] primos = new int[cuentaPrimos];
 
-        // Llenamos el vector de primos
         int indicePrimos = 0;
         for (int i = 0; i < vector_main.length; i++) {
             if (itsPrime(vector_main[i])) {
