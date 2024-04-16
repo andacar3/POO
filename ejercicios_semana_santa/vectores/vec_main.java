@@ -1,6 +1,5 @@
 package ejercicios_semana_santa.vectores;
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * vec_main
  */

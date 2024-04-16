@@ -10,8 +10,8 @@ public class llenar {
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("ingrese un numero");
             int nVec = tec.nextInt();
-            while ( nVec > 999) {
-                System.out.println("Numero no valido, ingrese un numero entre 1 y 3 cifras");
+            while ( nVec > 999 ||nVec < -999) {
+                System.out.println("Numero no valido, ingrese un numero de 3 cifras");
                 nVec = tec.nextInt();
                 
             }

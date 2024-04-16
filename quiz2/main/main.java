@@ -2,7 +2,7 @@ package quiz2.main;
 
 import java.util.Scanner;
 
-import quiz.menu;
+import quiz2.menu;
 import quiz2.fill.llenar;
 import quiz2.search.search;
 
